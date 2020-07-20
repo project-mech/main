@@ -1,4 +1,4 @@
-from app.tests import client
+from tests import client
 
 def test_app_index(client):
     response = client.get('/')
