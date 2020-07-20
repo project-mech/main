@@ -9,6 +9,5 @@ def client():
     with app.app_context() as ctx:
         ctx.push()
         db.create_all()
-        load_data("data/manufacturers.csv", 'manufacturers')
     client=app.test_client()
     return client

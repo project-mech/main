@@ -17,12 +17,8 @@ def create_app(config=None):
     db.init_app(app)
     migrate.init_app(app, db)
 
-    @app.route('/')
-    def index():
-        return "Hello, app!"
-
-    # from app.graphql import bp as graphql_bp
-    # app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
+    from app.graphql import bp as graphql_bp
+    app.register_blueprint(graphql_bp, url_prefix='/api')
 
     # if config in ['testing', 'development']:
     #     from app.tests_site import bp as tests_site_bp
