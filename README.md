@@ -1,7 +1,4 @@
-# main
-Main app
-
-## How to run locally
+## How to run on your local machine
 
 First, make sure to [install and configure Docker](https://docs.docker.com/docker-for-mac/install/).
 
