@@ -25,7 +25,7 @@ Right now, there is only a manufacturers query available, which requires no auth
 
 ```
 {
-  manufacturers{
+  manufacturers {
     id
     manufacturer
   }
