@@ -18,9 +18,11 @@ docker-compose up
 
 You'll see the `postgres` and `app` containers start up. At this point, the GraphQL API will be available at `http://localhost:5000/api/`.
 
+## Functionality
+
 Right now, there is only a manufacturers query available, which requires no authorization to get. You can fetch the manufacturers query with the following:
 
-```
+```graphql
 {
   manufacturers(first: 1, search: "c") {
     pageInfo {
