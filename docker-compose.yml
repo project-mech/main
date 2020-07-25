@@ -10,12 +10,11 @@ services:
         ports:
             - "5555:5432"
     # Flask
-    app:
+    backend:
         build:
-            context: ./app
+            context: ./backend
         volumes:
-            - ./app:/usr/local/app
-
+            - ./backend:/usr/local/app
         command: >
             /bin/bash -c "
                 sleep 5
