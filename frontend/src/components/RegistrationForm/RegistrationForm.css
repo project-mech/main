@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+#RegistrationForm__username-input, #RegistrationForm__nickname-input, #RegistrationForm__password-input, #RegistrationForm__repeat-password-input, #RegistrationForm__make-input {
+  border: 1px solid;
+  border-radius: .5em;
+  border-color: #686868;
+  font-size: smaller;
+  margin: 12px 0;
+  padding: 3px 21px 3px 3px;
+}
+
+.RegistrationForm__button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.RegistrationForm__button {
+  background-color: #E8E8E8;
+  border-radius: .5em;
+  font-size: medium;
+  margin: 15px 0;
+}
+
+.RegistrationForm__button:hover {
+  border-color: #505050;
+}
+
+.RegistrationForm__orange {
+  color: #FB4D3D;
+  margin: 0 0 12px 0;
+  width: 90%;
+}

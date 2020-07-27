@@ -1,0 +1,35 @@
+.CarListItem__make-model {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.CarListItem__date-created {
+  font-size: small;
+  margin: 3px 0 0 0;
+}
+
+.CarListItem__space {
+  margin: 12px;
+}
+
+.CarListItem__orange {
+  color: #FB4D3D;
+  width: 90%;
+}
+
+.CarListItem__button {
+  background-color: #E8E8E8;
+  border-radius: .5em;
+  font-size: medium;
+  margin: 15px 0;
+}
+
+.CarListItem__button:hover {
+  border-color: #505050;
+}
+
+.CarListItem__button-div {
+  display: flex;
+  justify-content: center;
+}

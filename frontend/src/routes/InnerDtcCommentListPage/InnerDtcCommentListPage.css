@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.InnerDtcCommentListPage__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InnerDtcCommentListPage__screen-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  margin: 42px 0;
+}
+
+.InnerDtcCommentListPage__orange {
+  color: #FB4D3D;
+  width: 90%;
+}
+
+a, a:visited {
+  color: #00acdf;
+}
+
+a:hover {
+  color: #32527B;
+}

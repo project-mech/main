@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.NotFoundPage__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotFoundPage__screen-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.NotFoundPage__page-not-found {
+  color: #FB4D3D;
+}
+
+a, a:visited {
+  color: #00acdf;
+}
+
+a:hover {
+  color: #32527B;
+}

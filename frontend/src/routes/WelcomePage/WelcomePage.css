@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.WelcomePage__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WelcomePage__screen-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+#WelcomePage__gear {
+  height: 57px;
+  width: 57px;
+}
+
+.WelcomePage__not-logged-in {
+  display: flex;
+  flex-direction: row;
+}
+
+.WelcomePage__notice {
+  color: #FB4D3D;
+  text-align: center;
+}
+
+.WelcomePage_link {
+  margin: 0 12px 0 12px;
+}
+
+#WelcomePage__intro {
+  margin: 12px 0 0 0;
+}
+
+.WelcomePage__intro-ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+a, a:visited {
+  color: #00acdf;
+}
+
+a:hover {
+  color: #32527B;
+}

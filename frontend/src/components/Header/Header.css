@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.Header__header {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #296e01;
+}
+
+#Header__gear {
+  height: 57px;
+  width: 57px;
+}
+
+.Header__brand {
+  margin: 0 12px 0 0;
+}
+
+.Header__gear-keep-driving {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Header__home, .Header__register, .Header__login, .Header__garage, .Header__logout {
+  margin: 6px;
+}
+
+Link, Link:visited {
+  color: #00acdf;
+}
+
+Link:hover {
+  color: #32527B;
+}

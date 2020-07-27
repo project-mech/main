@@ -1,0 +1,24 @@
+.DtcCommentListItem__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.DtcCommentListItem__icon {
+  margin: 0 3px 0 0;
+  color: #848482;
+}
+
+.DtcCommentListItem__make-vin, .DtcCommentListItem__comment-count {
+  margin: 0 9px 0 0;
+}
+
+.DtcCommentListItem__make-vin {
+  display: flex;
+  align-items: center;
+}
+
+.DtcCommentListItem__comment-count {
+  display: flex;
+  align-items: center;
+}

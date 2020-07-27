@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.ForgotPage___main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ForgotPage__screen-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+a, a:visited {
+  color: #00acdf;
+}
+
+a:hover {
+  color: #32527B;
+}

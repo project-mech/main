@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#LoginForm__username-input, #LoginForm__password-input {
+  border: 1px solid;
+  border-radius: .5em;
+  border-color: #686868;
+  font-size: smaller;
+  margin: 12px 0;
+  padding: 3px 21px 3px 3px;
+}
+
+.LoginForm__button {
+  background-color: #E8E8E8;
+  border-radius: .5em;
+  font-size: medium;
+  margin: 15px 0;
+}
+
+.LoginForm__button:hover {
+  border-color: #505050;
+}
+
+.LoginForm__orange {
+  color: #FB4D3D;
+  width: 90%;
+}
+
+.LoginForm__button-div, .LoginForm__forgot-div {
+  display: flex;
+  justify-content: center;
+}

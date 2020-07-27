@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#DtcForm__dtc-input {
+  border: 1px solid;
+  border-radius: .5em;
+  border-color: #686868;
+  font-size: medium;
+  margin: 12px 0;
+  padding: 3px 21px 3px 3px;
+}
+
+.DtcForm__button {
+  background-color: #E8E8E8;
+  border-radius: .5em;
+  font-size: medium;
+  margin: 15px 0;
+}
+
+.DtcForm__button:hover {
+  border-color: #505050;
+}
+
+.DtcForm__button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.DtcForm__orange {
+  color: #FB4D3D;
+  width: 90%;
+}

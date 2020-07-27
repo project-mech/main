@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.Footer__footer {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #296e01;
+}

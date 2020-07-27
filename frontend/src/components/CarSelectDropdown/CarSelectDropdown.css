@@ -1,0 +1,49 @@
+.CarSelectDropdown__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CarSelectDropdown__title-wrapper, .CarSelectDropdown__button {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.CarSelectDropdown__title-wrapper {
+  border: 1px #686868 solid;
+  border-radius: .5em;
+  align-items: center;
+}
+
+.CarSelectDropdown__title, .CarSelectDropdown__action {
+  width: 90px;
+}
+
+.CarSelectDropdown__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.CarSelectDropdown__list_item {
+  margin: 0 0 12px 0;
+}
+
+.CarSelectDropdown__list_item:last-of-type {
+  margin: 0;
+}
+
+.CarSelectDropdown__button {
+  font-size: medium;
+  background-color: white;
+  border: 0;
+  align-items: center;
+}
+
+.CarSelectDropdown__model, .CarSelectDropdown__selected {
+  width: 100px;
+}
+
+.CarSelectDropdown__selected {
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.InnerDtcCommentListItem__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.InnerDtcCommentListItem__icon {
+  margin: 0 3px 0 0;
+  color: #848482;
+}
+
+.InnerDtcCommentListItem__created, .InnerDtcCommentListItem__nickname {
+  margin: 0 9px 0 0;
+}
+
+.InnerDtcCommentListItem__comment {
+  margin: 16px 0 0 0;
+}
+
+.InnerDtcCommentListItem__comment-wrapper {
+  margin: 18px 0 0 0;
+  border: 1px #848482 solid;
+  border-radius: .5em;
+  padding: 9px;
+}

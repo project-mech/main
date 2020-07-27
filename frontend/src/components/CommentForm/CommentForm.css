@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.CommentForm__dtc {
+  margin: 18px 0 0 0;
+}
+
+#CommentForm__text-input {
+  border: 1px solid;
+  border-radius: .5em;
+  border-color: #686868;
+  font-size: medium;
+  margin: 12px 0;
+  padding: 3px;
+}
+
+.CommentForm__button {
+  background-color: #E8E8E8;
+  border-radius: .5em;
+  font-size: medium;
+  margin: 15px 0;
+}
+
+.CommentForm__button:hover {
+  border-color: #505050;
+}
+
+.CommentForm__button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.CommentForm__orange {
+  color: #FB4D3D;
+  width: 90%;
+}

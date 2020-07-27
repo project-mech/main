@@ -1,0 +1,11 @@
+.InnerDtcCommentListItemHeader__dtc {
+  margin: 0 0 9px 0;
+}
+
+.InnerDtcCommentListItemHeader__description {
+  margin: 0 0 18px 0;
+}
+
+.InnerDtcCommentListItemHeader__dtc, .InnerDtcCommentListItemHeader__description {
+  font-weight: bold;
+}

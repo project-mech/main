@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.RegistrationPage__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RegistrationPage__screen-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.RegistrationPage__registration-section {
+  margin: 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a, a:visited {
+  color: #00acdf;
+}
+
+a:hover {
+  color: #32527B;
+}
